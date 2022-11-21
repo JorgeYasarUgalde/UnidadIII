@@ -61,7 +61,7 @@ public class LectorQR extends CaptureActivity {
 
         try{
             com.google.zxing.Writer writer = new QRCodeWriter();
-            // String finaldata = Uri.encode(data, "utf-8");
+
             int width = 1024;
             int height = 1024;
             BitMatrix bm = writer

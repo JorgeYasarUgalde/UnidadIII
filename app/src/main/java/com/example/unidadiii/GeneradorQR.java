@@ -36,7 +36,7 @@ public class GeneradorQR extends AppCompatActivity {
             public void onClick(View view) {
                 try{
                     com.google.zxing.Writer writer = new QRCodeWriter();
-                    // String finaldata = Uri.encode(data, "utf-8");
+
                     int width = 1024;
                     int height = 1024;
                     BitMatrix bm = writer
